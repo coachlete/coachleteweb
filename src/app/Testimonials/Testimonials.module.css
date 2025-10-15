@@ -1,0 +1,52 @@
+.TestimonialsMain {
+  /* min-height: 70vh; */
+  width: 100%;
+  display: flex;
+  align-items: center; /* centers content vertically */
+  justify-content: flex-start; /* keeps slider to left */
+}
+
+.TestimonialsWrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-end; /* keeps slider near bottom */
+  justify-content: flex-start; /* keeps slider to the left */
+  width: 100%;
+  height: 100%;
+}
+
+.TestimonialsBackImage {
+  position: absolute;
+  inset: 0; /* make it cover full wrapper */
+  z-index: 0;
+}
+
+.TestimonialsBackImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.TestimonialsCardWrapper {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 50%;
+  background: white;
+  padding: 2vh 0vh;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  height: 650px;
+  margin-top: 15vh;
+  /* padding-bottom: 50px; */
+  overflow: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .TestimonialsBackImage img {
+    height: auto;
+  }
+
+  .TestimonialsCardWrapper {
+    max-width: 100%;
+  }
+}

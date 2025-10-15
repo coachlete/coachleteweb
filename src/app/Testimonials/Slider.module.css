@@ -1,0 +1,76 @@
+.SwiperMain {
+  height: 100%;
+  align-content: center;
+  justify-items: center;
+  color: black;
+  /* position: absolute; */
+}
+
+.SwiperWrapper {
+  width: 70%;
+  margin-top: 3vh;
+}
+
+.SwiperHeadWrapper {
+  width: 70%;
+}
+
+.TestimonialHead {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.TestimonialDesc {
+  font-size: 35px;
+  margin-top: 2vh;
+}
+
+.Testimonial1 {
+  display: flex;
+  gap: 2vh;
+}
+
+.Quote {
+  width: 80px;
+}
+
+.UserDetails {
+  margin-top: 1vh;
+}
+
+.UserImageName {
+  margin-top: 5vh;
+  display: flex;
+  gap: 2vh;
+  align-items: center;
+}
+
+.UserImage {
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.Desc {
+  line-height: 30px;
+}
+
+.Name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.position {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .Quote {
+    font-size: 35px;
+  }
+
+  .TestimonialDesc {
+    font-size: 30px;
+  }
+}

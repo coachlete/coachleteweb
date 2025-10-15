@@ -1,0 +1,138 @@
+.InfoMain {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.InfoWrapper {
+  margin: 96px 0;
+  padding: 0 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2vh;
+}
+
+.InfoCard1,
+.InfoCard2,
+.InfoCard3,
+.InfoCard4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: 23%;
+  min-height: 200px; /* ✅ fixed equal height */
+  background-color: white;
+  border-radius: 12px;
+  padding: 4vh 2vh;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+.InfoCard1:hover,
+.InfoCard2:hover,
+.InfoCard3:hover,
+.InfoCard4:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-5px); /* subtle lift */
+}
+
+/* ensures icons don't shift */
+.IconWrapper {
+  height: 90px; /* fixed space for icons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.hrWrapper {
+  height: 250px;
+  align-content: center;
+  justify-items: center;
+}
+
+.hr {
+  height: 100px;
+}
+
+#icon {
+  width: 70px;
+  height: 70px;
+  transition: filter 0.3s ease;
+}
+
+/* invert icon color on hover */
+.InfoCard1:hover #icon,
+.InfoCard2:hover #icon,
+.InfoCard3:hover #icon,
+.InfoCard4:hover #icon {
+  filter: invert(1);
+}
+
+.InfoCardHead {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  min-height: 50px; /* ✅ ensures equal space for all headings */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InfoCardDesc {
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 250px;
+  flex-grow: 1; /* ✅ fills vertical space evenly */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* --- Responsive behavior --- */
+@media screen and (max-width: 1024px) {
+  .InfoWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .InfoCard1,
+  .InfoCard2,
+  .InfoCard3,
+  .InfoCard4 {
+    width: 45%;
+    min-height: 360px;
+    margin-bottom: 4vh;
+  }
+
+  .hrWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .InfoWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .InfoCard1,
+  .InfoCard2,
+  .InfoCard3,
+  .InfoCard4 {
+    width: 90%;
+    min-height: auto;
+  }
+
+  .InfoCardHead {
+    font-size: 20px;
+  }
+
+  .InfoCardDesc {
+    font-size: 15px;
+  }
+}

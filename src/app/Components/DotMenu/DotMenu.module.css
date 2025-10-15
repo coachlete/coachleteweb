@@ -1,0 +1,84 @@
+.DotMenuMain {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25vw;
+  height: 100%;
+  z-index: 3;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.DotMenuTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DotMenuLogo {
+  width: 180px;
+  height: 100%;
+}
+
+.DotMenuLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.DotMenuClose {
+  padding: 1.5vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  display: flex;
+  cursor: pointer;
+}
+
+.DotSocialMediaLinks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.Facebook,
+.Instagram,
+.Youtube,
+.Twitter {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+.SocialLinks1 {
+  text-decoration: none;
+  color: white;
+}
+
+.SocialLinks {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.DotSocialMediaLinks ul li {
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.DotPhoneNo {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.PhoneNumber {
+  font-size: 2vw;
+}
+
+.Email {
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,0 +1,148 @@
+.NavBarmain {
+  position: absolute;
+  height: 9.5vh;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Default wrapper */
+.NavBarWrapper,
+.NavBarWrapperOpen {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2vh 4vw;
+  /* height: 9.5vh; */
+  transition: all 0.3s ease-in-out;
+}
+
+.NavBarWrapperOpen {
+  background-color: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ✅ Responsive logo area */
+.NavBarLogo {
+  display: flex;
+  align-items: center;
+  width: clamp(120px, 18vw, 170px);
+  height: auto;
+}
+
+.NavBarLogo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ✅ Responsive link styling */
+.NavBarLinks ul {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 2vw, 3rem);
+  list-style: none;
+  font-size: clamp(0.8rem, 1.1vw, 1.2rem);
+  font-weight: 600;
+  color: white;
+}
+
+#links {
+  color: white;
+  text-decoration: none;
+}
+
+.menuIcon {
+  width: clamp(20px, 2vw, 28px);
+  cursor: pointer;
+}
+
+/* ✅ Mobile Menu Icon */
+.MobileMenuIcon {
+  display: none;
+}
+
+.MobileMenuLinksWrapper {
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  color: white;
+  padding: 4vh 6vw;
+}
+
+.MobileMenuLinks ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+}
+
+.MobileSocialMediaLinks ul {
+  list-style: none;
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+.SocialLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.hr {
+  width: 80%;
+  margin-top: 3vh;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ✅ MOBILE RESPONSIVENESS */
+@media screen and (max-width: 767px) {
+  .NavBarWrapper,
+  .NavBarWrapperOpen {
+    padding: 3vh 5vw;
+  }
+
+  .NavBarLinks {
+    display: none;
+  }
+
+  .MobileMenuIcon {
+    display: block;
+  }
+
+  .NavBarLogo {
+    width: clamp(120px, 40vw, 180px);
+  }
+
+  .mobileMenu {
+    width: 7vw;
+  }
+}
+
+/* ✅ TABLET SCREENS */
+@media screen and (min-width: 768px) and (max-width: 1294px) {
+  .NavBarLinks ul {
+    font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+    gap: 2vw;
+  }
+
+  .NavBarLogo {
+    width: clamp(150px, 22vw, 220px);
+  }
+}
+
+/* ✅ LARGE SCREENS */
+@media screen and (min-width: 1800px) {
+  .NavBarLinks ul {
+    font-size: clamp(1.2rem, 1vw, 1.5rem);
+  }
+
+  .NavBarLogo {
+    width: clamp(220px, 15vw, 350px);
+  }
+}

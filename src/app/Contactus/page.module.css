@@ -1,0 +1,218 @@
+.ContactHeadWrapper {
+  padding: 8rem 2rem;
+  /* height: 300px; */
+  color: white;
+  text-align: center;
+  align-content: center;
+  background-color: black;
+}
+
+.ContactHead {
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.ContactLinks {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ContactusLocation {
+  width: 100%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none;
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.gmap_iframe {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.ContactGridWrapper {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.ContactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 96px 0px;
+  padding: 0vh 7vh;
+  color: black;
+  max-width: 1500px;
+}
+
+.ContactLeftHead {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ContactLeftDesc {
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 3vh 0vh;
+}
+
+.ContactAddress,
+.ContactEmail {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+.ContactPhone {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  margin: 2vh 0vh;
+}
+
+.NameEmail,
+.PhoneSubject {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Name,
+.Email,
+.Phone,
+.Subject {
+  position: relative;
+  width: 100%;
+}
+
+#icon {
+  position: absolute;
+  bottom: 10;
+}
+
+#icon1 {
+  position: absolute;
+  top: 0;
+}
+
+#input {
+  width: 400px;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  padding-left: 5vh;
+  background-color: transparent;
+}
+
+#input:focus,
+#textarea:focus {
+  outline: none;
+}
+
+.ContactRight {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.Desc {
+  width: 100%;
+  position: relative;
+}
+
+#textarea {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  padding-left: 5vh;
+  background-color: transparent;
+  min-height: 50px;
+  height: 100%;
+  max-height: 50px;
+  min-width: 100%;
+  max-width: 830px;
+}
+
+.SubmitButton {
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+}
+
+.SubmitButton button {
+  background-color: black;
+  color: white;
+  padding: 2vh 5vh;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+#PP {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .ContactGrid {
+    grid-template-columns: 1fr;
+    gap: 5vh;
+  }
+
+  .ContactLeftDesc {
+    font-size: 34px;
+  }
+
+  .NameEmail,
+  .PhoneSubject {
+    flex-direction: column;
+  }
+
+  #input {
+    width: 100%;
+  }
+
+  .SubmitButton {
+    flex-direction: column;
+    align-items: start;
+  }
+}

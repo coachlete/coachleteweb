@@ -1,0 +1,169 @@
+.Footermain {
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.FooterWrapper {
+  max-width: 1600px;
+  width: 100%;
+  padding: 6vh 5vw;
+  margin: 0 auto;
+}
+
+.FooterTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+
+.Logo img {
+  width: 100%;
+  height: auto;
+}
+
+.FooterTopRight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+/* Text Styles */
+.Officehead,
+.LinkHead {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.OfficeAddress,
+.LinksList,
+.Officemail,
+.OfficePhone {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1vh;
+}
+
+.OfficeAddress {
+  max-width: 400px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.LinksList ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding: 0;
+}
+
+.aLink {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.aLink:hover {
+  color: white;
+}
+
+.SocialLinks {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.SocialLinks:hover {
+  color: white;
+}
+
+.socialItem {
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+  font-size: 15px;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+}
+
+.hrWrapper {
+  margin: 4vh 0;
+}
+
+.hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.FooterBottom {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-top: 2vh;
+}
+
+/* ✅ Responsive Adjustments */
+@media (max-width: 1024px) {
+  .FooterTopRight {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .FooterTop {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Logo {
+    width: 160px;
+  }
+
+  .FooterTopRight {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .OfficeAddress {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .socialItem {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .FooterWrapper {
+    padding: 5vh 3vw;
+  }
+
+  .Officehead,
+  .LinkHead {
+    font-size: 14px;
+  }
+
+  .OfficeAddress,
+  .Officemail,
+  .OfficePhone,
+  .LinksList,
+  .socialItem {
+    font-size: 13px;
+  }
+
+  .svg {
+    width: 18px;
+    height: 18px;
+  }
+}
