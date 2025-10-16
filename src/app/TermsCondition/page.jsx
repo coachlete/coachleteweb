@@ -22,7 +22,7 @@ function TermsConditions() {
           </p>
           <div className={styles.lastUpdated}>
             <AlertCircle size={16} />
-            <span>Last updated: September 23, 2025</span>
+            <span>Last updated: October 15, 2025</span>
           </div>
         </div>
       </header>
