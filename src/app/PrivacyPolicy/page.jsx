@@ -191,6 +191,19 @@ function PrivacyPolicy() {
                   For any other purpose disclosed at the time of collection or
                   with your consent.
                 </li>
+                <li>
+                  In accordance with Section 5(1)(i) of the Digital Personal
+                  Data Protection Act, 2023, we provide clear notice of the
+                  personal data we collect and its purpose before requesting
+                  your consent, ensuring you can make informed choices.
+                </li>
+                <li>
+                  We use a device push token (FCM/APNs) only to send
+                  transactional messages (booking confirmations, reminders,
+                  important updates). You can disable notifications in device
+                  settings at any time. We don’t use push tokens for
+                  advertising.
+                </li>
               </ul>
             </section>
 
