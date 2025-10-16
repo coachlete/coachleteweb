@@ -370,6 +370,25 @@ function PrivacyPolicy() {
                 (unless expressly stated). Their privacy practices are governed
                 by their own policies; we recommend reviewing those before using
                 such sites or services.
+                <ul className={styles.listStyled}>
+                  <li>
+                    Razorpay - used to process payments securely. Razorpay may
+                    collect or process limited personal and transaction
+                    information as required to complete your payment. Please
+                    refer to{" "}
+                    <a href="https://razorpay.com/privacy/">
+                      {" "}
+                      Razorpay's Privacy Policy.{" "}
+                    </a>
+                  </li>
+                  <li>
+                    Firebase Cloud Messaging (Google LLC) - used solely to
+                    deliver push notifications. Firebase processes a unique
+                    device identifier (FCM token) to send notifications
+                    securely. We do not use Firebase Analytics, AdMob or any
+                    advertising services.
+                  </li>
+                </ul>
               </p>
             </section>
 
