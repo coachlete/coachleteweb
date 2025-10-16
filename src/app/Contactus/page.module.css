@@ -215,4 +215,8 @@
     flex-direction: column;
     align-items: start;
   }
+
+  .ContactHead {
+    font-size: 2.5rem;
+  }
 }
