@@ -128,6 +128,12 @@ function PrivacyPolicy() {
                   interactions, and device identifiers.
                 </li>
                 <li>
+                  Device Information: Limited technical details such as the
+                  device's operation system and a unique identifier(Firebase
+                  Cloud Messaging token) to enable push notifications and
+                  maintain app functionality
+                </li>
+                <li>
                   Payment Information: processed securely through trusted
                   third-party gateways like Razorpay. We do not store full card
                   or UPI credentials.{" "}
