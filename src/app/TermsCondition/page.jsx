@@ -379,12 +379,12 @@ function TermsConditions() {
               <div className={styles.sectionNumber}>13</div>
               <h2>Dispute Resolution and Governing Law</h2>
               <p>
-                THE PLATFORM AND ALL CONTENT ARE PROVIDED “AS IS” AND “AS
-                AVAILABLE.” TO THE MAXIMUM EXTENT PERMITTED BY LAW, COACHLETE
-                DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
-                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-                NON-INFRINGEMENT. COACHLETE DOES NOT WARRANT THE QUALITY OR
-                SUITABILITY OF ANY SERVICE PROVIDER OR VENUE.
+                The platform and all content are provided “as is” and “as
+                available.” to the maximum extent permitted by law, coachlete
+                disclaims all warranties, express or implied, including
+                merchantability, fitness for a particular purpose, and
+                non-infringement. coachlete does not warrant the quality or
+                suitability of any service provider or venue.
               </p>
             </section>
 
@@ -392,14 +392,14 @@ function TermsConditions() {
               <div className={styles.sectionNumber}>14</div>
               <h2>Limitation of Liability</h2>
               <p>
-                TO THE MAXIMUM EXTENT PERMITTED BY LAW, COACHLETE SHALL NOT BE
-                LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
-                EXEMPLARY, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, OR
-                BUSINESS, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE
-                PLATFORM OR SERVICES. IN NO EVENT SHALL COACHLETE’S TOTAL
-                LIABILITY EXCEED THE AMOUNTS PAID BY YOU FOR BOOKINGS THAT GAVE
-                RISE TO THE CLAIM DURING THE THREE (3) MONTHS PRECEDING THE
-                EVENT.
+                To the maximum extent permitted by law, coachlete shall not be
+                liable for indirect, incidental, special, consequential,
+                exemplary, or punitive damages, or any loss of profits, data, or
+                business, arising out of or in connection with your use of the
+                platform or services. in no event shall coachlete’s total
+                liability exceed the amounts paid by you for bookings that gave
+                rise to the claim during the three (3) months preceding the
+                event.
               </p>
             </section>
 
@@ -478,9 +478,9 @@ function TermsConditions() {
                 <div className={styles.contactItem}>
                   <strong>Address:</strong>
                   <span>
-                    No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
+                    No.116,4th Cross, 2nd stage , Viswaneedam, Bangalore North,
                     <br />
-                    Bengaluru, Karnataka, India
+                    Bengaluru- 560091, Karnataka
                   </span>
                 </div>
               </div>
@@ -502,17 +502,6 @@ function TermsConditions() {
           </article>
         </div>
       </main>
-
-      {/* <footer className={styles.termsFooter}>
-        <div className={styles.footerContent}>
-          <p>&copy; 2025 Coachlete. All rights reserved.</p>
-          <div className={styles.footerLinks}>
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/terms">Terms of Service</a>
-            <a href="/contact">Contact</a>
-          </div>
-        </div>
-      </footer> */}
     </div>
   );
 }
