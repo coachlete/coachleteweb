@@ -77,6 +77,7 @@ export default function Footer() {
                 <ul>
                   <Link
                     href="https://www.instagram.com/coachlete_app?igsh=anVrY2Z1bmMzeHlu"
+                    target="_blank"
                     className={styles.SocialLinks}
                   >
                     <li className={styles.socialItem}>
@@ -98,6 +99,7 @@ export default function Footer() {
 
                   <Link
                     href="https://www.facebook.com/profile.php?id=61570320432392"
+                    target="_blank"
                     className={styles.SocialLinks}
                   >
                     <li className={styles.socialItem}>
@@ -118,6 +120,7 @@ export default function Footer() {
                   </Link>
                   <Link
                     href="https://www.youtube.com/@Coachlete-q9n"
+                    target="_blank"
                     className={styles.SocialLinks}
                   >
                     <li className={styles.socialItem}>
