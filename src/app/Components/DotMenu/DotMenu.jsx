@@ -44,6 +44,7 @@ export default function DotMenu({ setOpenDot, openDot }) {
             <ul>
               <Link
                 href="https://www.facebook.com/profile.php?id=61570320432392"
+                target="_blank"
                 className={styles.SocialLinks1}
               >
                 <li>
@@ -64,6 +65,7 @@ export default function DotMenu({ setOpenDot, openDot }) {
               </Link>
               <Link
                 href="https://www.instagram.com/coachlete_app?igsh=anVrY2Z1bmMzeHlu"
+                target="_blank"
                 className={styles.SocialLinks1}
               >
                 <li>
@@ -86,6 +88,7 @@ export default function DotMenu({ setOpenDot, openDot }) {
               </Link>
               <Link
                 href="https://www.youtube.com/@Coachlete-q9n"
+                target="_blank"
                 className={styles.SocialLinks1}
               >
                 <li>
