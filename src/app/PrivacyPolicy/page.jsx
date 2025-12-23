@@ -71,8 +71,14 @@ function PrivacyPolicy() {
                 <a href="#links" className={styles.tocLink}>
                   12. Links to Third-Party Apps
                 </a>
+                <a href="#permissions" className={styles.tocLink}>
+                  13. Permissions and Personal Data Usage
+                </a>
+                <a href="#childrensPrivacy" className={styles.tocLink}>
+                  14. Children’s Privacy
+                </a>
                 <a href="#contact" className={styles.tocLink}>
-                  13. Contact Us
+                  15. Contact Us
                 </a>
               </nav>
             </div>
@@ -404,7 +410,7 @@ function PrivacyPolicy() {
               </ul>
             </section>
 
-            <section id="perimissions" className={styles.section}>
+            <section id="permissions" className={styles.section}>
               <div className={styles.sectionNumber}>13</div>
               <h2>13. Permissions and Personal Data Usage</h2>
               <ul className={styles.listStyled}>
