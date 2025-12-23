@@ -23,7 +23,8 @@ export default function Footer() {
 
               <div className={styles.OfficeAddress}>
                 <span>
-                  No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
+                  No.116,4th Cross, 2nd stage, Viswaneedam, Bangalore North,
+                  Bengaluru - 560091, Karnataka
                 </span>
               </div>
 

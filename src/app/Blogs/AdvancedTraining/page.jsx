@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function AdvancedTraining() {
   return (
@@ -153,7 +154,10 @@ export default function AdvancedTraining() {
             <div className={styles.sidebarcard}>
               <h3>Related Articles</h3>
               <div className={styles.relatedposts}>
-                <a href="YouthDevelopment" className={styles.relatedpost}>
+                <Link
+                  href="/Blogs/YouthDevelopment"
+                  className={styles.relatedpost}
+                >
                   <img
                     src="https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Training"
@@ -162,8 +166,11 @@ export default function AdvancedTraining() {
                     <h4>Youth Development</h4>
                     {/* <span className={styles.postdate}>Oct 5, 2025</span> */}
                   </div>
-                </a>
-                <a href="BeginnerTraining" className={styles.relatedpost}>
+                </Link>
+                <Link
+                  href="/Blogs/BeginnerTraining"
+                  className={styles.relatedpost}
+                >
                   <img
                     src="https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Nutrition"
@@ -172,8 +179,11 @@ export default function AdvancedTraining() {
                     <h4>Beginner's Training</h4>
                     {/* <span className={styles.postdate}>Oct 3, 2025</span> */}
                   </div>
-                </a>
-                <a href="IntermediateTraining" className={styles.relatedpost}>
+                </Link>
+                <Link
+                  href="/Blogs/IntermediateTraining"
+                  className={styles.relatedpost}
+                >
                   <img
                     src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Coaching"
@@ -182,7 +192,7 @@ export default function AdvancedTraining() {
                     <h4>Intermediate Training</h4>
                     {/* <span className={styles.postdate}>Sep 30, 2025</span> */}
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -207,14 +217,14 @@ export default function AdvancedTraining() {
               </div>
             </div> */}
 
-            <div className={`${styles.sidebarcard} ${styles.newsletter}`}>
+            {/* <div className={`${styles.sidebarcard} ${styles.newsletter}`}>
               <h3>Subscribe to Our Newsletter</h3>
               <p>Get the latest articles and tips delivered to your inbox.</p>
               <form className={styles.newsletterform}>
                 <input type="email" placeholder="Your email address" />
                 <button type="submit">Subscribe</button>
               </form>
-            </div>
+            </div> */}
           </aside>
         </main>
       </div>

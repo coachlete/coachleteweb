@@ -383,31 +383,83 @@ function PrivacyPolicy() {
                 (unless expressly stated). Their privacy practices are governed
                 by their own policies; we recommend reviewing those before using
                 such sites or services.
-                <ul className={styles.listStyled}>
-                  <li>
-                    Razorpay - used to process payments securely. Razorpay may
-                    collect or process limited personal and transaction
-                    information as required to complete your payment. Please
-                    refer to{" "}
-                    <a href="https://razorpay.com/privacy/">
-                      {" "}
-                      Razorpay's Privacy Policy.{" "}
-                    </a>
-                  </li>
-                  <li>
-                    Firebase Cloud Messaging (Google LLC) - used solely to
-                    deliver push notifications. Firebase processes a unique
-                    device identifier (FCM token) to send notifications
-                    securely. We do not use Firebase Analytics, AdMob or any
-                    advertising services.
-                  </li>
-                </ul>
+              </p>
+              <ul className={styles.listStyled}>
+                <li>
+                  Razorpay - used to process payments securely. Razorpay may
+                  collect or process limited personal and transaction
+                  information as required to complete your payment. Please refer
+                  to{" "}
+                  <a href="https://razorpay.com/privacy/">
+                    {" "}
+                    Razorpay's Privacy Policy.{" "}
+                  </a>
+                </li>
+                <li>
+                  Firebase Cloud Messaging (Google LLC) - used solely to deliver
+                  push notifications. Firebase processes a unique device
+                  identifier (FCM token) to send notifications securely. We do
+                  not use Firebase Analytics, AdMob or any advertising services.
+                </li>
+              </ul>
+            </section>
+
+            <section id="perimissions" className={styles.section}>
+              <div className={styles.sectionNumber}>13</div>
+              <h2>13. Permissions and Personal Data Usage</h2>
+              <ul className={styles.listStyled}>
+                <li>
+                  Media and Storage Access - Our app may request access to your
+                  device storage to allow you to select and upload photos,
+                  videos, or documents that you voluntarily choose (such as
+                  profile pictures or coach verification documents). We only
+                  access the specific files you select and do not scan or access
+                  other files on your device.
+                </li>
+                <li>
+                  Audio Access - If you choose to use features that involve
+                  voice or audio recording, the app may request microphone
+                  access. Audio data is collected only when you actively use
+                  such features and only for the intended functionality.
+                </li>
+                <li>
+                  Location Access - With your permission, we collect precise
+                  location information (latitude and longitude) to suggest
+                  nearby coaches and training sessions. Location access is
+                  optional and can be disabled at any time through your device
+                  settings.
+                </li>
+              </ul>
+            </section>
+
+            <section id="childrensPrivacy" className={styles.section}>
+              <div className={styles.sectionNumber}>14</div>
+              <h2>14. Children’s Privacy</h2>
+              <p>
+                Coachlete is not intended for use by children under the age of
+                13 (or the minimum age required by applicable law in your
+                jurisdiction).
+              </p>
+              <p>
+                We do not knowingly collect, use, or disclose personal
+                information from children under 13. If we become aware that we
+                have inadvertently collected personal data from a child without
+                appropriate parental consent, we will take steps to delete such
+                information promptly.
+              </p>
+              <p>
+                Parents or legal guardians who believe that their child has
+                provided personal information through the app may contact us at{" "}
+                <a href="mailto:support@coachlete.co.in">
+                  support@coachlete.co.in
+                </a>{" "}
+                to request review or deletion of the data.
               </p>
             </section>
 
             <section id="contact" className={styles.section}>
-              <div className={styles.sectionNumber}>13</div>
-              <h2>13. Contact Us</h2>
+              <div className={styles.sectionNumber}>15</div>
+              <h2>15. Contact Us</h2>
               <p>
                 If you have any questions, complaints, or requests related to
                 this Privacy Policy, you may contact us:
@@ -426,8 +478,8 @@ function PrivacyPolicy() {
                   <strong>Address:</strong>
                   <span>
                     {" "}
-                    No. 116, 4th Cross, Prakruthinagar, Bharathnagar - 560091,
-                    Bengaluru, Karnataka, India{" "}
+                    No.116,4th Cross, 2nd stage , Viswaneedam, Bangalore North,
+                    Bengaluru - 560091, Karnataka
                   </span>
                 </div>
               </div>
