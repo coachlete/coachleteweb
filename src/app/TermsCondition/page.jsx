@@ -85,12 +85,19 @@ function TermsConditions() {
                 <a href="#governing" className={styles.tocLink}>
                   17. Governing Law and Dispute Resolution
                 </a>
+                <a href="#ITRules" className={styles.tocLink}>
+                  18. Grievance Officer (India – IT Rules Compliance)
+                </a>
+                <a href="#CoachDisclaimer" className={styles.tocLink}>
+                  19. Coach Disclaimer
+                </a>
+
                 <a href="#changestoterms" className={styles.tocLink}>
-                  18. Changes to These Terms
+                  20. Changes to These Terms
                 </a>
 
                 <a href="#contact" className={styles.tocLink}>
-                  19. Contact Us
+                  21. Contact Us
                 </a>
               </nav>
             </div>
@@ -301,11 +308,34 @@ function TermsConditions() {
               <div className={styles.sectionNumber}>08</div>
               <h2>Cancellations and Refunds</h2>
               <p>
-                Cancellation and refund terms may vary by Service Provider.
-                Unless otherwise stated at booking, refunds (if any) are at the
-                discretion of the Service Provider. Coachlete may facilitate
-                communications but is not the merchant of record for coaching
-                services.
+                All payments made on Coachlete are final and non-refundable.
+              </p>
+              <br />
+              <p>
+                Coachlete does not support cancellations or refunds for any
+                coaching sessions, subscriptions, or services once payment has
+                been successfully completed.
+              </p>
+              <br />
+              <p>This includes, but is not limited to:</p>
+              <ul className={styles.listStyled}>
+                <li>⁠Missed or unattended sessions (no-shows)</li>
+
+                <li>Change of mind by the user</li>
+                <li>⁠Scheduling conflicts</li>
+                <li>⁠Partial usage of services</li>
+                <li>⁠Early termination of subscriptions </li>
+              </ul>
+              <p>
+                ⁠ Users are advised to review all details carefully before
+                making any payment.By proceeding with payment, you acknowledge
+                and agree to this no-refund and no-cancellation policy.
+              </p>
+              <br />
+              <p>
+                For this can we add something like this However, subject to the
+                arena’s approval, the arrangement may be changed upon request.
+                But this cannot be changed in app.
               </p>
             </section>
 
@@ -420,11 +450,58 @@ function TermsConditions() {
               <div className={styles.sectionNumber}>16</div>
               <h2>Suspension and Termination</h2>
               <p>
-                We may suspend or terminate your account or access to the
-                Platform at any time, with or without notice, if we believe you
-                have violated these Terms or applicable law, or to protect the
-                Platform or other users. Upon termination, the rights and
-                licenses granted to you will cease.
+                Coachlete reserves the right to suspend, restrict or terminate a
+                user's account (Athlete or Coach), temporarily or permanently,
+                with or without prior notice, if we reasonably believe that the
+                user has:
+              </p>
+              <ul className={styles.listStyled}>
+                <li>
+                  Violated Any Terms & Conditions, Privacy Policy, or any
+                  applicable laws or regulations
+                </li>
+                <li> ⁠Provided false, misleading, or incomplete information</li>
+                <li>
+                  Engaged in fraud, abuse, misuse, or unauthorized access to the
+                  platform{" "}
+                </li>
+                <li>
+                  ⁠Posed a risk to the safety, rights, or experience of other
+                  users, coaches, or the platform
+                </li>
+                <li>
+                  Compromised or attempted to compromise the security or
+                  integrity of the platform
+                </li>
+                <li>
+                  Failed to comply with platform guidelines, verification
+                  requirements, or payment obligations{" "}
+                </li>
+              </ul>
+              <p>
+                Coachlete may take such action without liability to the user and
+                may retain or delete account data as required by law or internal
+                policies.
+              </p>
+              <p>
+                You may request clarification or appeal a suspension or
+                termination by contacting us at{" "}
+                <a href="mailto:support@coachlete.co.in">
+                  support@coachlete.co.in.
+                </a>
+                Coachlete will review such requests in good faith but is not
+                obligated to reinstate the account.
+              </p>
+              <p>
+                Account termination does not relieve you of any obligations
+                incurred prior to termination, including payment obligations or
+                liabilities arising from prior use of the platform.
+              </p>
+              <p>
+                You may delete your account at any time directly from the App
+                under Settings → Account → Delete Account. Upon deletion, your
+                personal data will be erased or anonymized in accordance with
+                our retention obligations.
               </p>
             </section>
 
@@ -446,8 +523,66 @@ function TermsConditions() {
               </p>
             </section>
 
-            <section id="changestoterms" className={styles.section}>
+            <section id="ITRules" className={styles.section}>
               <div className={styles.sectionNumber}>18</div>
+              <h2>Grievance Officer (India – IT Rules Compliance)</h2>
+              <p>
+                In accordance with the Information Technology (Intermediary
+                Guidelines and Digital Media Ethics Code) Rules, 2021:
+              </p>
+              <p>
+                Grievance Officer
+                <br />
+                Name: Likhith C
+                <br />
+                Email:{" "}
+                <a href="mailto:support@coachlete.co.in">
+                  support@coachlete.co.in
+                </a>
+              </p>
+            </section>
+
+            <section id="CoachDisclaimer" className={styles.section}>
+              <div className={styles.sectionNumber}>19</div>
+              <h2>Coach Disclaimer</h2>
+              <p>
+                Coachlete is a technology platform that connects athletes with
+                independent coaches. Coachlete does not provide coaching
+                services directly.
+              </p>
+              <p>
+                No Guarantee of Results: <br /> Coachlete does not guarantee any
+                specific performance outcomes, athletic improvements, team
+                selection, rankings, or achievements. Coaching results vary and
+                depend on multiple factors, including the athlete’s effort,
+                physical condition, consistency, and external circumstances.
+              </p>
+              <p>
+                Athlete Responsibility: <br />
+                All training outcomes are the result of the athlete’s personal
+                commitment, discipline, and adherence to coaching guidance.
+                Coachlete is not responsible for individual progress or lack of
+                results.
+              </p>
+              <p>
+                Independent Coaches: <br />
+                Coaches listed on Coachlete are independent professionals and
+                are not employees, agents, or representatives of Coachlete.
+                Coachlete does not control or supervise the coaching methods,
+                advice, or services provided by coaches.
+              </p>
+              <p>
+                Limitation of Liability: <br />
+                Coachlete is not liable for any injuries, losses, or damages
+                arising from coaching sessions, training activities, or advice
+                provided by coaches. Athletes are encouraged to consult
+                qualified professionals and assess their own fitness and health
+                conditions before participating in any training activities.
+              </p>
+            </section>
+
+            <section id="changestoterms" className={styles.section}>
+              <div className={styles.sectionNumber}>20</div>
               <h2>Changes to These Terms</h2>
               <p>
                 We may update these Terms from time to time. When we do, we will
@@ -459,7 +594,7 @@ function TermsConditions() {
             </section>
 
             <section id="contact" className={styles.section}>
-              <div className={styles.sectionNumber}>19</div>
+              <div className={styles.sectionNumber}>21</div>
               <h2>Contact Us</h2>
               <p>
                 For questions or concerns about these Terms, please contact:
