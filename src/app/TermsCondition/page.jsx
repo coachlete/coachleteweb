@@ -331,12 +331,6 @@ function TermsConditions() {
                 making any payment.By proceeding with payment, you acknowledge
                 and agree to this no-refund and no-cancellation policy.
               </p>
-              <br />
-              <p>
-                For this can we add something like this However, subject to the
-                arena’s approval, the arrangement may be changed upon request.
-                But this cannot be changed in app.
-              </p>
             </section>
 
             <section id="userContent" className={styles.section}>
