@@ -276,8 +276,8 @@ function PrivacyPolicy() {
                 We retain personal data only as long as necessary for the
                 purposes outlined in this policy or as required by law. You may
                 request deletion of your account and data by emailing{" "}
-                <a href="mailto:support@coachlete.co.in">
-                  support@coachlete.co.in
+                <a href="mailto:contact@coachlete.co.in">
+                  contact@coachlete.co.in
                 </a>
                 .
               </p>
@@ -335,8 +335,8 @@ function PrivacyPolicy() {
                 account to book sessions for another individual; any information
                 shared for the booking is used solely to provide the service and
                 can be deleted upon request at{" "}
-                <a href="mailto:support@coachlete.co.in">
-                  support@coachlete.co.in
+                <a href="mailto:contact@coachlete.co.in">
+                  contact@coachlete.co.in
                 </a>
                 .
               </p>
@@ -456,8 +456,8 @@ function PrivacyPolicy() {
               <p>
                 Parents or legal guardians who believe that their child has
                 provided personal information through the app may contact us at{" "}
-                <a href="mailto:support@coachlete.co.in">
-                  support@coachlete.co.in
+                <a href="mailto:contact@coachlete.co.in">
+                  contact@coachlete.co.in
                 </a>{" "}
                 to request review or deletion of the data.
               </p>
@@ -473,8 +473,8 @@ function PrivacyPolicy() {
               <div className={styles.contactBox}>
                 <div className={styles.contactItem}>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:support@coachlete.co.in">
-                    support@coachlete.co.in
+                  <a href="mailto:contact@coachlete.co.in">
+                    contact@coachlete.co.in
                   </a>
                 </div>
                 <div className={styles.contactItem}>

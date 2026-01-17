@@ -480,8 +480,8 @@ function TermsConditions() {
               <p>
                 You may request clarification or appeal a suspension or
                 termination by contacting us at{" "}
-                <a href="mailto:support@coachlete.co.in">
-                  support@coachlete.co.in.
+                <a href="mailto:contact@coachlete.co.in">
+                  contact@coachlete.co.in.
                 </a>
                 Coachlete will review such requests in good faith but is not
                 obligated to reinstate the account.
@@ -530,8 +530,8 @@ function TermsConditions() {
                 Name: Likhith C
                 <br />
                 Email:{" "}
-                <a href="mailto:support@coachlete.co.in">
-                  support@coachlete.co.in
+                <a href="mailto:contact@coachlete.co.in">
+                  contact@coachlete.co.in
                 </a>
               </p>
             </section>
@@ -596,8 +596,8 @@ function TermsConditions() {
               <div className={styles.contactBox}>
                 <div className={styles.contactItem}>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:support@coachlete.co.in">
-                    support@coachlete.co.in
+                  <a href="mailto:contact@coachlete.co.in">
+                    contact@coachlete.co.in
                   </a>
                 </div>
                 <div className={styles.contactItem}>
