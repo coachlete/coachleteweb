@@ -87,8 +87,8 @@ export default function IntermediateTraining() {
               </div> */}
 
               <div className={styles.imagegallery}>
-                <img src="../assets/Intermediate/intermediate2.jpg" alt="" />
-                <img src="../assets/Intermediate/intermediate3.jpg" alt="" />
+                <img src="/assets/Intermediate/intermediate2.jpg" alt="" />
+                <img src="/assets/Intermediate/intermediate3.jpg" alt="" />
               </div>
 
               <div className={styles.contentsection}>
