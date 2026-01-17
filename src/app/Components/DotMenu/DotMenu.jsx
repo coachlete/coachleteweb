@@ -17,7 +17,7 @@ export default function DotMenu({ setOpenDot, openDot }) {
         >
           <div className={styles.DotMenuTop}>
             <div className={styles.DotMenuLogo}>
-              <img src="../assets/Logo/coachlete1.png" alt="" />
+              <img src="/assets/Logo/coachlete1.png" alt="" />
             </div>
             <motion.div
               className={styles.DotMenuClose}

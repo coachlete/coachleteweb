@@ -8,7 +8,7 @@ export default function Homesection() {
         {/* <NavBar /> */}
         <div className={styles.HomeVideo}>
           <div className={styles.HomeVideoWrapper}>
-            <img src="assets/Home/homesection.jpg" alt="" />
+            <img src="/assets/Home/homesection.jpg" alt="" />
           </div>
 
           <div className={styles.HomeWrapper}>
