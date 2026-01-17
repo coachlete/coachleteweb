@@ -88,8 +88,8 @@ export default function YouthDevelopment() {
               </div>
 
               <div className={styles.imagegallery}>
-                <img src="../assets/YouthDevelopment/KhoKho.jpg" alt="" />
-                <img src="../assets/YouthDevelopment/volley.jpg" alt="" />
+                <img src="/assets/YouthDevelopment/KhoKho.jpg" alt="" />
+                <img src="/assets/YouthDevelopment/volley.jpg" alt="" />
               </div>
 
               <div className={styles.contentsection}>

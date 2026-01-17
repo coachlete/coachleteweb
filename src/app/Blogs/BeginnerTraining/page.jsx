@@ -87,7 +87,7 @@ export default function BeginnerTraining() {
 
               <div className={styles.imagegallery}>
                 <img src="/assets/BeginnerTraining/beginner1.jpg" alt="" />
-                <img src="../assets/BeginnerTraining/beginner2.jpg" alt="" />
+                <img src="/assets/BeginnerTraining/beginner2.jpg" alt="" />
               </div>
 
               <div className={styles.contentsection}>

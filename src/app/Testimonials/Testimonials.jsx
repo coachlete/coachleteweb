@@ -9,7 +9,7 @@ export default function Testimonials() {
       <div className={styles.TestimonialsMain}>
         <div className={styles.TestimonialsWrapper}>
           <div className={styles.TestimonialsBackImage}>
-            <img src="assets/Home/volleyball.jpg" alt="" />
+            <img src="/assets/Home/volleyball.jpg" alt="" />
           </div>
 
           <div className={styles.TestimonialsCardWrapper}>
