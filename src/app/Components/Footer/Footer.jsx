@@ -30,10 +30,10 @@ export default function Footer() {
 
               <div className={styles.Officemail}>
                 <Link
-                  href="mailto:support@coachlete.co.in"
+                  href="mailto:contact@coachlete.co.in"
                   className={styles.SocialLinks}
                 >
-                  support@coachlete.co.in
+                  contact@coachlete.co.in
                 </Link>
               </div>
 

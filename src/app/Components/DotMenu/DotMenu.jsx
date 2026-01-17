@@ -141,10 +141,10 @@ export default function DotMenu({ setOpenDot, openDot }) {
             <div className={styles.Email}>
               {" "}
               <Link
-                href="mailto:support@coachlete.co.in"
+                href="mailto:contact@coachlete.co.in"
                 className={styles.SocialLinks}
               >
-                support@coachlete.co.in
+                contact@coachlete.co.in
               </Link>
             </div>
           </div>
