@@ -129,6 +129,7 @@
   border-bottom: 1px solid black;
   padding-left: 5vh;
   background-color: transparent;
+  color: black;
 }
 
 #input:focus,
@@ -160,6 +161,7 @@
   max-height: 50px;
   min-width: 100%;
   max-width: 830px;
+  color: black;
 }
 
 .SubmitButton {
